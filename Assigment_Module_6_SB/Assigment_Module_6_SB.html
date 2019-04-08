@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<HTML>
+
+	<head>
+
+	<title>Assigment_Module_6_SB</title>
+	<link rel=stylesheet type= "text/css" href="CSS_Silena_M6.css" />
+	<script type="text/javascript" src="JS_Silena_M6.js"></script> 
+
+	</head>
+
+<body >
+
+	<div id="container">
+		
+		<div id="header">
+			<h1> Create Account</h1>
+
+			<div id="main" >
+						<p class="please">Please enter your data: </p>
+						<div id=input align="center" >
+							<form id=idForm > 
+							<!--I choose this form to make sure I can add some style to this specific part-->
+							<!--Here the user will be able to enter the name, last name and password-->
+							<!--The system will let the user know how to add the data and will let them know when something is incorrect-->
+								<table >
+									<tr>
+										<td> 
+									</td>						
+									</tr>
+									<tr>
+										<td class="label_col">First name: </td>
+										<td class="input_col"><input name="firstName" id="firstName" type="text" onblur="valFirstName();" placeholder="Your name..." ></td> 
+										<td class="feedback_col"><span id="fnPrompt">&nbsp;</span></td>	
+									</tr>
+									<tr>
+										<td class="label_col">Last name: </td>
+										<td class="input_col"><input name="lastName" id="lastName" type="text" onblur="valLastName();" placeholder="Your last name..."></td>
+										<td class="feedback_col"><span id="lnPrompt">&nbsp;</span></td>	
+									</tr>
+									<tr>
+										<td class="label_col">New password: </td>
+										<td class="input_col"><input name="newPassword" id="newPassword" type="password"  ></td>					
+									</tr>
+									<tr>
+										<td class="label_col">Confirm password: </td>
+										<td class="input_col"><input name="confirmPassword" id="confirmPassword" type="password" onblur="validatePass();" ></td>						
+									</tr>
+									<tr>
+									<td class="label_col">Gender:</td> <!--radio button. will allow the user to select the gender-->
+									<td class="input_col">
+										<input name="gender" id="gender1" type="radio" value="Female">Female<br>
+										<input name="gender" id="gender2" type="radio" value="Male">Male<br>
+								
+									</td>
+									<tr>
+										<td class="label_col"> What is your favorite sport? </td> <!--Drop down option, will allow the user to select 1 sport-->
+										<td> <Select id=idSelector NAME="Selector" Size="1">
+											<Option>Basketball
+											<Option Selected>Crossfit
+											<Option>Running
+											<Option>Swimming	
+											</Select>											
+										</td>
+									</tr>	
+									<tr>
+										<td class="label_col">Add comments: </td>
+										<td class="input_col"><textarea id="msg" name="user_message" cols="20%" placeholder="Here..." style="font-style:italic" ></textarea></td>						
+									</tr>									
+								</table>
+					
+							</form>
+						</div>
+						
+						<BR>
+						
+						<div id=button align="center" >
+						<span class="idbutton" onclick="calcData();" >Create Account</span> <!--This action will execute the function calcData()-->
+						<br>
+						
+						</div>
+						
+			</div>
+		</div>
+		<div id="result">
+			<p> <img src="background2.jpeg" width=200 height=130/> </p>
+			<p id="displayResult"></p> <!--Will show the result of execute function calcData()-->
+			<a href="https://www.google.com/">For more information go to...</a> 
+		</div>
+		<div id="footer">
+			Copyright &copy; 2019 Sil.
+		</div>
+	</div>
+
+</body>
+</HTML>
+

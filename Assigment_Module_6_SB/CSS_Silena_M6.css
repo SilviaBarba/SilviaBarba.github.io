@@ -1,0 +1,96 @@
+body{
+	background-color: #e2d99c;
+	font-family: Calibri;
+	width: 80%;
+	background-image: url("background3.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+
+}
+
+h1{
+	margin:0;
+	color: #4CAF50;
+}
+
+a {
+	color: black;
+	padding : 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+#container {
+	background-color: #006400;
+	
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+
+}
+#header{
+	background-color: white;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+#main{
+	background-color: #c0d6e4;;
+	color: auto;
+	text-align: center;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#SelectW{
+	color: green;
+	padding: 10px;
+	background-color: white;
+	text-align: Left;
+	
+}
+
+#result{
+	clear:both;
+	background-color: #B2D1C4;
+	padding: 10px;
+	color: white;
+	text-align: Left;
+}
+#footer{
+	clear:both;
+	padding: 2px;
+	background-color: #CF9A75;
+	color: white;
+	text-align: right;
+}
+
+.idbutton{
+	color: #006400;
+	background-color: Lightgrey;
+	padding: 5px;
+	border: 2px solid #006400;
+	border-radius: 12px;
+
+}
+
+.label_col{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.please{
+	background-color: #006400;
+	font-style: italic;
+		text-align: left;
+]
+
+
+
+
